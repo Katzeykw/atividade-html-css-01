@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- EXEMPLO 1: uso excessivo de <div> sem contexto -->
+      <!-- Ruim: Estrutura genérica sem significado -->
+       <div class="cabecalho">
+         <h1>Meu Blog</h1>
+          <div class="menu">
+             <a href="#">Início</a>
+             <a href="#">Sobre</a>
+          </div>
+    </div>
+       <div class="conteudo">
+       <div class="post">
+             <h2>O que é HTML?</h2>
+         <p>HTML é a linguagem de marcação para criar páginas web.</p>
+       </div>
+     </div>
+    <div class="rodape">
+         <p>© 2026 - Todos os direitos reservados</p>
+    </div>
+
+    <!-- EXEMPLO 2: uso correto das tags -->
+       <!-- Bom: Tags expressam a função exata do conteúdo -->
+         <header>
+             <h1>Meu Blog</h1>
+             <nav>
+                 <a href="#">Início</a>
+                 <a href="#">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+             <h2>O que é HTML?</h2>
+            <p>HTML é a linguagem de marcação para criar páginas web.</p>
+        </article>
+    </main>
+        <footer>
+            <p>© 2026 - Todos os direitos reservados</p>
+        </footer>
+
+</body>
+</html>
